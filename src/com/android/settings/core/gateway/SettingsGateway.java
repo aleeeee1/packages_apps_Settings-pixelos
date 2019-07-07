@@ -215,6 +215,7 @@ import com.android.settings.wifi.tether.WifiTetherSettings;
 
 import com.android.settings.livedisplay.LiveDisplaySettings;
 import ink.kscope.settings.wifi.tether.WifiTetherClientManager;
+import com.android.settings.fuelgauge.batterysaver.SmartPixelsSettings;
 
 public class SettingsGateway {
 
@@ -418,6 +419,7 @@ public class SettingsGateway {
             ContactsStorageSettings.class.getName(),
             LiveDisplaySettings.class.getName(),
             WifiTetherClientManager.class.getName(),
+            SmartPixelsSettings.class.getName(),
             WirelessDebuggingFragment.class.getName()
     };
 
@@ -466,5 +468,6 @@ public class SettingsGateway {
             Settings.MemtagPageActivity.class.getName(),
             Settings.NavigationModeSettingsActivity.class.getName(),
             Settings.WirelessDebuggingActivity.class.getName(),
+            Settings.SmartPixelsActivity.class.getName(),
     };
 }

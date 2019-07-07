@@ -531,4 +531,6 @@ public class Settings extends SettingsActivity {
      * Activity for WirelessDebuggingActivity
      */
     public static class WirelessDebuggingActivity extends SettingsActivity { /* empty */ }
+
+    public static class SmartPixelsActivity extends SettingsActivity {}
 }
